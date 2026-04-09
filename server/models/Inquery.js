@@ -2,7 +2,11 @@ const mongoose = require("mongoose");
 
 const inquerySchema = new mongoose.Schema({
   name: String,
-  phone: String,
+  phone:{
+    type:String,
+    unique:true,
+  },
+  
   date: String,
   guests: Number
 });

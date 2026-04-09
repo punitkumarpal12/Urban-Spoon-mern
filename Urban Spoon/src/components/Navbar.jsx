@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-      <nav style={{
+        <nav style={{
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
@@ -23,10 +23,13 @@ const Navbar = () => {
             <Link className="nav-link" to="/menu">Menu</Link></span>
 
           <span style={{ margin: "10px" }}>
-            <Link className="nav-link" to="/contact">Contact</Link></span>
+            <Link className="nav-link" to="/booktable">Book-Table</Link></span>
 
           <span style={{ margin: "10px" }}>
             <Link className="nav-link" to="/admin">Admin</Link></span>
+
+          <span style={{ margin: "10px" }}>
+            <Link className="nav-link" to="/contact">Contact</Link></span>
         </div>
       </nav>
     </div>

@@ -64,7 +64,7 @@ const Menu = () => {
               </div>
             ))}
             <button
-              onClick={() => window.location.href = "/contact"}
+              onClick={() => window.location.href = "/booktable"}
               style={{
                 padding: "10px 20px",
                 background: "orange",
